@@ -27,6 +27,7 @@ const modsData = {
 };
 
 // Linkleri HTML yapısına dönüştüren fonksiyon
+// Linkleri HTML yapısına dönüştüren fonksiyon
 function createModLinks(containerId, modLinks, version) {
     const container = document.getElementById(containerId);
     const list = document.createElement('ul');
@@ -43,8 +44,8 @@ function createModLinks(containerId, modLinks, version) {
             const linkElement = document.createElement('a');
             linkElement.href = link.url;
 
-            // Tüm başlıklara versiyonu ekle
-            linkElement.textContent = `${link.title} v${version}`;
+            // Tüm başlıklara "- v{version}" ekle
+            linkElement.textContent = `${link.title} - v${version}`;
             linkElement.target = "_blank";
 
             paragraph.appendChild(linkElement);
