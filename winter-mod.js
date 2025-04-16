@@ -1,5 +1,3 @@
-ya bunu yapmak çok zor değil
-
 // ATS ve ETS2 Kış Modu Bağlantı Verileri
 const modsData = {
     ats: [
