@@ -43,14 +43,10 @@ function createModLinks(containerId, modLinks, version) {
             const linkElement = document.createElement('a');
             linkElement.href = link.url;
 
-            // "Reklamsız İndir" başlığına versiyonu ekle
-            if (link.title === "Reklamsız İndir") {
-                linkElement.textContent = `${link.title} v${version}`;
-            } else {
-                linkElement.textContent = link.title;
-            }
-
+            // Tüm başlıklara versiyonu ekle
+            linkElement.textContent = `${link.title} v${version}`;
             linkElement.target = "_blank";
+
             paragraph.appendChild(linkElement);
             listItem.appendChild(paragraph);
 
