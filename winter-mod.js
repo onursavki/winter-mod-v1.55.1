@@ -71,6 +71,22 @@ function createModLinks(containerId, modLinks, version) {
 const atsVersion = "5.3";
 const ets2Version = "10.1";
 
+// Oyun versiyonları
+const atsGameVersion = "1.53";
+const ets2GameVersion = "1.54";
+
+// ATS başlığına versiyon ekle
+const atsTitle = document.querySelector("h2.ats-gameVersion");
+if (atsTitle) {
+    atsTitle.textContent += ` - v${atsGameVersion}`;
+}
+
+// ETS2 başlığına versiyon ekle
+const ets2Title = document.querySelector("h2.ets-gameVersion");
+if (ets2Title) {
+    ets2Title.textContent += ` - v${ets2GameVersion}`;
+}
+
 // ATS ve ETS2 mod bağlantılarını HTML sayfasına ekle
 createModLinks("atsContainer", modsData.ats, atsVersion);
 createModLinks("ets2Container", modsData.ets2, ets2Version);
