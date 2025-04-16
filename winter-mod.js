@@ -70,6 +70,10 @@ function createModLinks(containerId, modLinks, version) {
 const atsVersion = "5.3";
 const ets2Version = "10.1";
 
+// Oyun versiyonları tanımla
+const atsGameVersion = "1.53";
+const ets2GameVersion = "1.54";
+
 // ATS ve ETS2 mod bağlantılarını HTML sayfasına ekle
 createModLinks("atsContainer", modsData.ats, atsVersion);
 createModLinks("ets2Container", modsData.ets2, ets2Version);
