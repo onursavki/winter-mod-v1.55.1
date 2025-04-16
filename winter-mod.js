@@ -70,6 +70,14 @@ function createModLinks(containerId, modLinks, version) {
 const atsVersion = "5.3";
 const ets2Version = "10.1";
 
+// ATS ve ETS2 versiyonları
+const atsVersion = "5.3";
+const ets2Version = "10.1";
+
+// ATS ve ETS butonlarına versiyon bilgisi ekleme
+document.querySelector('.ats-download-button .version-text').textContent = `v${atsVersion}`;
+document.querySelector('.ets-download-button .version-text').textContent = `v${ets2Version}`;
+
 // ATS ve ETS2 mod bağlantılarını HTML sayfasına ekle
 createModLinks("atsContainer", modsData.ats, atsVersion);
 createModLinks("ets2Container", modsData.ets2, ets2Version);
