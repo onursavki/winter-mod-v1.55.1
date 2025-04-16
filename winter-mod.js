@@ -73,15 +73,15 @@ function addVersionToHeader() {
     const atsHeader = document.querySelector('.ats');
     const etsHeader = document.querySelector('.ets');
 
-    // Versiyonları tanımla
-    const atsVersion = "v5.3";
-    const ets2Version = "v10.1";
+    // Sabit versiyonları tanımla (mod versiyonlarından bağımsız)
+    const atsVersion = "v1.53";  // Sabit ATS versiyonu
+    const ets2Version = "v1.54";  // Sabit ETS versiyonu
 
     // Başlıkların sonuna versiyon ekle
     atsHeader.innerHTML = `American Truck Simulator <span class="version-text">- ${atsVersion}</span>`;
     etsHeader.innerHTML = `Euro Truck Simulator 2 <span class="version-text">- ${ets2Version}</span>`;
 }
 
-// Mod bağlantılarını da güncelle
+// Mod bağlantılarını da güncelle (mod versiyonları farklı olarak kalır)
 createModLinks("atsContainer", modsData.ats, "5.3");
 createModLinks("ets2Container", modsData.ets2, "10.1");
