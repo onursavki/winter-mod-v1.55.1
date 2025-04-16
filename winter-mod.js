@@ -92,7 +92,7 @@ createModLinks("ets2Container", modsData.ets2, ets2Version);
 
 // Dinamik başlıkları (h5) yerleştirme
 const atsTitles = {
-    atsFrosty: "frosty_ats_v5_3.scs",
+    atsFrosty: "frosty_ats_v5_4.scs",
     atsWinter: "frosty_heavy_winter_v5_3.scs",
     atsWheels: "frosty_wheels_5_3_ats.scs",
     atsClean: "frosty_v5_3_clean_roads.scs",
@@ -100,7 +100,7 @@ const atsTitles = {
 };
 
 const etsTitles = {
-    etsFrosty: "frosty_v10_1.scs",
+    etsFrosty: "frosty_v10_2.scs",
     etsWinter: "frosty_heavy_winter_v10_1.scs",
     etsWheels: "frosty_wheels_10_1.scs",
     etsClean: "frosty_v10_1_clean_roads.scs",
