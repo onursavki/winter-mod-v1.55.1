@@ -15,8 +15,8 @@ const modsData = {
     ets2: [
         { title: "Reklamsız İndir", url: "https://www.fatfreecartpro.com/i/149ut?card", description: "(Reklamsız indirme - 1$ maliyeti var. - Tüm eklentileri içerir.)" },
         { title: "Ücretsiz İndir", url: "https://sharemods.com/wnvjr6h8ujzr/frosty_v10_1.scs.html", description: "(Reklamlarla ücretsiz indirin.)" },
-        { isHeader: true, title: "Hata Düzeltme ve Geliştirmeler" }, // BAŞLIK
-        { title: "İyileştirme ve Düzeltme Paketi", url: "https://sharemods.com/nm9rfm8fgcqx/frosty_v10_improvements_fixes_pack_v2.scs.html", description: "(Frosty v10 için kar yağışı ve hata düzeltmeleri iyileştirildi.)" },
+        // { isHeader: true, title: "Hata Düzeltme ve Geliştirmeler" }, // BAŞLIK
+        // { title: "İyileştirme ve Düzeltme Paketi", url: "https://sharemods.com/nm9rfm8fgcqx/frosty_v10_improvements_fixes_pack_v2.scs.html", description: "(Frosty v10 için kar yağışı ve hata düzeltmeleri iyileştirildi.)" },
         { isHeader: true, title: "İsteğe Bağlı Eklentiler" }, // BAŞLIK
         { title: "Donmuş Tekerlekler", url: "https://sharemods.com/jybsnohhtvqj/frosty_wheels_10_1.scs.html", description: "(Araç tekerleklerine buz ekler.)" },
         { title: "Temiz Yollar", url: "https://sharemods.com/dk57mqhph7hu/frosty_v10_1_clean_roads.scs.html", description: "(Kar kaplamasını azaltır, daha temiz yollar sağlar.)" },
