@@ -44,7 +44,7 @@ function createModLinks(containerId, modLinks, version) {
             linkElement.href = link.url;
 
             // Tüm başlıklara versiyonu ekle
-            linkElement.textContent = `${link.title} v${version}`;
+            linkElement.textContent = `${link.title} - v${version}`;
             linkElement.target = "_blank";
 
             paragraph.appendChild(linkElement);
