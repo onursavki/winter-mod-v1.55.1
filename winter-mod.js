@@ -67,10 +67,21 @@ function createModLinks(containerId, modLinks, version) {
     container.appendChild(list);
 }
 
-// Versiyonları tanımla
-const atsVersion = "5.3";
-const ets2Version = "10.1";
+// Başlıklara versiyon eklemek için fonksiyon
+function addVersionToHeader() {
+    // ATS ve ETS başlıklarını class ile seç
+    const atsHeader = document.querySelector('.ats');
+    const etsHeader = document.querySelector('.ets');
 
-// ATS ve ETS2 mod bağlantılarını HTML sayfasına ekle
-createModLinks("atsContainer", modsData.ats, atsVersion);
-createModLinks("ets2Container", modsData.ets2, ets2Version);
+    // Versiyonları tanımla
+    const atsVersion = "v5.3";
+    const ets2Version = "v10.1";
+
+    // Başlıkların sonuna versiyon ekle
+    atsHeader.innerHTML = `American Truck Simulator <span class="version-text">- ${atsVersion}</span>`;
+    etsHeader.innerHTML = `Euro Truck Simulator 2 <span class="version-text">- ${ets2Version}</span>`;
+}
+
+// Mod bağlantılarını da güncelle
+createModLinks("atsContainer", modsData.ats, "5.3");
+createModLinks("ets2Container", modsData.ets2, "10.1");
