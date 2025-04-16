@@ -1,3 +1,5 @@
+ya bunu yapmak çok zor değil
+
 // ATS ve ETS2 Kış Modu Bağlantı Verileri
 const modsData = {
     ats: [
@@ -26,7 +28,6 @@ const modsData = {
     ]
 };
 
-// Linkleri HTML yapısına dönüştüren fonksiyon
 // Linkleri HTML yapısına dönüştüren fonksiyon
 function createModLinks(containerId, modLinks, version) {
     const container = document.getElementById(containerId);
@@ -70,10 +71,10 @@ function createModLinks(containerId, modLinks, version) {
 // Başlıklara versiyon eklemek için fonksiyon
 function addVersionToHeader() {
     // ATS ve ETS başlıklarını class ile seç
-    const atsHeader = document.querySelector('.ats');
-    const etsHeader = document.querySelector('.ets');
+    const atsHeader = document.querySelector('.game-header-ats');
+    const etsHeader = document.querySelector('.game-header-ets');
 
-    // Sabit versiyonları tanımla (mod versiyonlarından bağımsız)
+    // Sabit versiyonları tanımla
     const atsVersion = "v1.53";  // Sabit ATS versiyonu
     const ets2Version = "v1.54";  // Sabit ETS versiyonu
 
@@ -82,6 +83,10 @@ function addVersionToHeader() {
     etsHeader.innerHTML = `Euro Truck Simulator 2 <span class="version-text">- ${ets2Version}</span>`;
 }
 
-// Mod bağlantılarını da güncelle (mod versiyonları farklı olarak kalır)
-createModLinks("atsContainer", modsData.ats, "5.3");
-createModLinks("ets2Container", modsData.ets2, "10.1");
+// Versiyonları tanımla
+const atsVersion = "5.3"; // Mod versiyonu
+const ets2Version = "10.1"; // Mod versiyonu
+
+// ATS ve ETS2 mod bağlantılarını HTML sayfasına ekle
+createModLinks("atsContainer", modsData.ats, atsVersion);
+createModLinks("ets2Container", modsData.ets2, ets2Version);
