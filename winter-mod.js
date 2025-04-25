@@ -57,6 +57,10 @@ const etsTitles = {
     etsPhysics: "frosty_physics_10_1.scs"
 };
 
+// h5 başlıklarını yerleştir
+applyTitles(atsTitles);
+applyTitles(etsTitles);
+
 // Linkleri HTML yapısına dönüştüren fonksiyon
 function createModLinks(containerId, modLinks, version) {
     const container = document.getElementById(containerId);
@@ -121,7 +125,3 @@ function applyTitles(titleMap) {
         }
     }
 }
-
-// h5 başlıklarını yerleştir
-applyTitles(atsTitles);
-applyTitles(etsTitles);
