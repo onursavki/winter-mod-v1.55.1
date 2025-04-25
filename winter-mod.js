@@ -32,6 +32,14 @@ const modsData = {
     ]
 };
 
+// Versiyonları tanımla
+const atsVersion = "5.4";
+const ets2Version = "10.1";
+
+// Oyun versiyonları
+const atsGameVersion = "1.54";
+const ets2GameVersion = "1.54";
+
 // Linkleri HTML yapısına dönüştüren fonksiyon
 function createModLinks(containerId, modLinks, version) {
     const container = document.getElementById(containerId);
@@ -71,14 +79,6 @@ function createModLinks(containerId, modLinks, version) {
 
     container.appendChild(list);
 }
-
-// Versiyonları tanımla
-const atsVersion = "5.4";
-const ets2Version = "10.1";
-
-// Oyun versiyonları
-const atsGameVersion = "1.54";
-const ets2GameVersion = "1.54";
 
 // ATS başlığına versiyon ekle
 const atsTitle = document.querySelector("h2.ats-gameVersion");
