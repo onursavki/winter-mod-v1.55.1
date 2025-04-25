@@ -3,24 +3,30 @@ const modsData = {
     ats: [
         { title: "Reklamsız İndir", url: "https://www.fatfreecartpro.com/i/14a32?card", description: "(Reklamsız indirme - 1$ maliyeti var. - Tüm eklentileri içerir.)" },
         { title: "Ücretsiz İndir", url: "https://sharemods.com/xdz0c8y2akb2/frosty_ats_v5_4.scs.html", description: "(Reklamlarla ücretsiz indirin.)" },
+        
         // { isHeader: true, title: "Hata Düzeltme ve Geliştirmeler" }, // BAŞLIK
         // { title: "Geliştirilmiş Kar Yağışı", url: "https://sharemods.com/ypmy4tpi8w2k/frosty_v5_3_improved_snowfall_v2.scs.html", description: "(Frosty v5.3 için geliştirilmiş kar yağışı.)" },
+        
         { isHeader: true, title: "İsteğe Bağlı Eklentiler" }, // BAŞLIK
         { title: "Donmuş Tekerlekler", url: "https://sharemods.com/yp5ygu99saj9/frosty_wheels_5_4_ats.scs.html", description: "(Araç tekerleklerine buz ekler.)" },
         { title: "Temiz Yollar", url: "https://sharemods.com/b49o9xs7rk8s/frosty_v5_4_ats_clean_roads.scs.html", description: "(Kar kaplamasını azaltır, daha temiz yollar sağlar.)" },
         { title: "Kış Fiziği", url: "https://sharemods.com/g4przkwqdmrt/frosty_physics_ats_5_4.scs.html", description: "(Yolları biraz daha kaygan hale getirir.)" },
+        
         { isHeader: true, title: "Diğer Paketler" }, // BAŞLIK
         { title: "Sezon Paketi", url: "https://www.fatfreecartpro.com/i/12dqe?card", description: "(İlkbahar, Yaz, Erken Sonbahar, Geç Sonbahar ve Kış'ı içerir - 2,99$ maliyeti var.)" }
     ],
     ets2: [
         { title: "Reklamsız İndir", url: "https://www.fatfreecartpro.com/i/149ut?card", description: "(Reklamsız indirme - 1$ maliyeti var. - Tüm eklentileri içerir.)" },
         { title: "Ücretsiz İndir", url: "https://sharemods.com/wnvjr6h8ujzr/frosty_v10_1.scs.html", description: "(Reklamlarla ücretsiz indirin.)" },
+        
         // { isHeader: true, title: "Hata Düzeltme ve Geliştirmeler" }, // BAŞLIK
         // { title: "İyileştirme ve Düzeltme Paketi", url: "https://sharemods.com/nm9rfm8fgcqx/frosty_v10_improvements_fixes_pack_v2.scs.html", description: "(Frosty v10 için kar yağışı ve hata düzeltmeleri iyileştirildi.)" },
+        
         { isHeader: true, title: "İsteğe Bağlı Eklentiler" }, // BAŞLIK
         { title: "Donmuş Tekerlekler", url: "https://sharemods.com/jybsnohhtvqj/frosty_wheels_10_1.scs.html", description: "(Araç tekerleklerine buz ekler.)" },
         { title: "Temiz Yollar", url: "https://sharemods.com/dk57mqhph7hu/frosty_v10_1_clean_roads.scs.html", description: "(Kar kaplamasını azaltır, daha temiz yollar sağlar.)" },
         { title: "Kış Fiziği", url: "https://sharemods.com/4y02p8qyudkk/frosty_physics_10_1.scs.html", description: "(Yolları biraz daha kaygan hale getirir.)" },
+        
         { isHeader: true, title: "Diğer Paketler" }, // BAŞLIK
         { title: "Sezon Paketi", url: "https://www.fatfreecartpro.com/i/12edw?card", description: "(İlkbahar, Yaz, Erken Sonbahar, Geç Sonbahar ve Kış'ı içerir - 2,99$ maliyeti var.)" }
     ]
