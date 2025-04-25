@@ -40,6 +40,23 @@ const ets2Version = "10.1";
 const atsGameVersion = "1.54";
 const ets2GameVersion = "1.54";
 
+// Dinamik başlıkları (h5) yerleştirme
+const atsTitles = {
+    atsFrosty: "frosty_ats_v5_4.scs",
+    atsWinter: "frosty_heavy_winter_v5_4.scs",
+    atsWheels: "frosty_wheels_5_4_ats.scs",
+    atsClean: "frosty_v5_4_clean_roads.scs",
+    atsPhysics: "frosty_physics_ats_5_4.scs"
+};
+
+const etsTitles = {
+    etsFrosty: "frosty_v10_1.scs",
+    etsWinter: "frosty_heavy_winter_v10_1.scs",
+    etsWheels: "frosty_wheels_10_1.scs",
+    etsClean: "frosty_v10_1_clean_roads.scs",
+    etsPhysics: "frosty_physics_10_1.scs"
+};
+
 // Linkleri HTML yapısına dönüştüren fonksiyon
 function createModLinks(containerId, modLinks, version) {
     const container = document.getElementById(containerId);
@@ -95,23 +112,6 @@ if (ets2Title) {
 // ATS ve ETS2 mod bağlantılarını HTML sayfasına ekle
 createModLinks("atsContainer", modsData.ats, atsVersion);
 createModLinks("ets2Container", modsData.ets2, ets2Version);
-
-// Dinamik başlıkları (h5) yerleştirme
-const atsTitles = {
-    atsFrosty: "frosty_ats_v5_4.scs",
-    atsWinter: "frosty_heavy_winter_v5_4.scs",
-    atsWheels: "frosty_wheels_5_4_ats.scs",
-    atsClean: "frosty_v5_4_clean_roads.scs",
-    atsPhysics: "frosty_physics_ats_5_4.scs"
-};
-
-const etsTitles = {
-    etsFrosty: "frosty_v10_1.scs",
-    etsWinter: "frosty_heavy_winter_v10_1.scs",
-    etsWheels: "frosty_wheels_10_1.scs",
-    etsClean: "frosty_v10_1_clean_roads.scs",
-    etsPhysics: "frosty_physics_10_1.scs"
-};
 
 function applyTitles(titleMap) {
     for (const id in titleMap) {
